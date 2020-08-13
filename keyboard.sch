@@ -1761,7 +1761,7 @@ Connection ~ 9400 950
 Wire Wire Line
 	9400 950  9650 950 
 Connection ~ 2500 1200
-Text Notes 5050 4500 0    50   ~ 0
+Text Notes 4450 5350 0    50   ~ 0
 TODO: Caps LED?
 Wire Wire Line
 	3200 2000 3300 2000
@@ -2000,6 +2000,10 @@ F 3 "" H 8850 5450 50  0001 C CNN
 	1    8850 5450
 	1    0    0    -1  
 $EndComp
+Text Notes 8100 600  0    50   ~ 0
+TODO: 5.1k resistors are incorrect because this is an upstream port
 Wire Bus Line
 	9500 3850 9500 5250
+Text Notes 4450 5450 0    50   ~ 0
+TODO: Power LED?
 $EndSCHEMATC
