@@ -1,0 +1,4 @@
+[submodule "lib/MX_Alps_Hybrid"]
+	path = lib/MX_Alps_Hybrid
+	url = https://github.com/WardBenjamin/MX_Alps_Hybrid
+	branch = oval_hybrids

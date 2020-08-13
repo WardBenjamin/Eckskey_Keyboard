@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M55-6101642R
+D HARWIN - M55-6101642R - CONN, RCPT, R/A, 16POS, 2ROW, 1.27MM
+F https://componentsearchengine.com/Datasheets/1/M55-6101642R.pdf
+$ENDCMP
+#
+$CMP M55-7101642R
+D Board to Board & Mezzanine Connectors 16P 1.27 SMC Male R/A SMT Type
+F https://cdn.harwin.com/pdfs/M55-710.pdf
+$ENDCMP
+#
+$CMP USB2422-MJ
+D USB2422/MJ USB Hub Controller USB 2.0 USB Interface 24-QFN (4x4)
+K 2-Port USB 2.0 Hi-Speed Hub Controller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/00001726B.pdf
+$ENDCMP
+#
+#End Doc Library
