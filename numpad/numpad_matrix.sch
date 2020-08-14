@@ -241,36 +241,36 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F46906F
-P 3400 2000
+P 3400 2850
 AR Path="/5F46906F" Ref="SW?"  Part="1" 
 AR Path="/5F401E16/5F46906F" Ref="SW?"  Part="1" 
 AR Path="/5F428B3F/5F46906F" Ref="SW17"  Part="1" 
-F 0 "SW17" H 3400 2285 50  0000 C CNN
-F 1 "NUM+" H 3400 2194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-2U" H 3400 2200 50  0001 C CNN
-F 3 "~" H 3400 2200 50  0001 C CNN
-	1    3400 2000
+F 0 "SW17" H 3400 3135 50  0000 C CNN
+F 1 "NUM+" H 3400 3044 50  0000 C CNN
+F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-2U" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D16
 U 1 1 5F469075
-P 3150 2150
-F 0 "D16" V 3196 2080 50  0000 R CNN
-F 1 "D_Small" V 3105 2080 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123F" V 3150 2150 50  0001 C CNN
-F 3 "~" V 3150 2150 50  0001 C CNN
-	1    3150 2150
+P 3150 3000
+F 0 "D16" V 3196 2930 50  0000 R CNN
+F 1 "D_Small" V 3105 2930 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" V 3150 3000 50  0001 C CNN
+F 3 "~" V 3150 3000 50  0001 C CNN
+	1    3150 3000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3200 2000 3150 2000
+	3200 2850 3150 2850
 Wire Wire Line
-	3150 2000 3150 2050
+	3150 2850 3150 2900
 Wire Wire Line
-	3150 2300 3150 2250
+	3150 3150 3150 3100
 Wire Wire Line
-	3600 2000 3650 2000
+	3600 2850 3650 2850
 $Comp
 L Switch:SW_Push SW4
 U 1 1 5F46911F
@@ -452,36 +452,36 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F46923F
-P 3400 3650
+P 3400 4500
 AR Path="/5F46923F" Ref="SW?"  Part="1" 
 AR Path="/5F401E16/5F46923F" Ref="SW?"  Part="1" 
 AR Path="/5F428B3F/5F46923F" Ref="SW18"  Part="1" 
-F 0 "SW18" H 3400 3935 50  0000 C CNN
-F 1 "NUM_ENTER" H 3400 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-2U" H 3400 3850 50  0001 C CNN
-F 3 "~" H 3400 3850 50  0001 C CNN
-	1    3400 3650
+F 0 "SW18" H 3400 4785 50  0000 C CNN
+F 1 "NUM_ENTER" H 3400 4694 50  0000 C CNN
+F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-2U" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D17
 U 1 1 5F469245
-P 3150 3800
-F 0 "D17" V 3196 3730 50  0000 R CNN
-F 1 "D_Small" V 3105 3730 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123F" V 3150 3800 50  0001 C CNN
-F 3 "~" V 3150 3800 50  0001 C CNN
-	1    3150 3800
+P 3150 4650
+F 0 "D17" V 3196 4580 50  0000 R CNN
+F 1 "D_Small" V 3105 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" V 3150 4650 50  0001 C CNN
+F 3 "~" V 3150 4650 50  0001 C CNN
+	1    3150 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3200 3650 3150 3650
+	3200 4500 3150 4500
 Wire Wire Line
-	3150 3650 3150 3700
+	3150 4500 3150 4550
 Wire Wire Line
-	3150 3950 3150 3900
+	3150 4800 3150 4750
 Wire Wire Line
-	3600 3650 3650 3650
+	3600 4500 3650 4500
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F4692EF
@@ -516,38 +516,20 @@ Wire Wire Line
 Wire Wire Line
 	1350 4500 1400 4500
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5F4692FF
-P 1900 4500
-AR Path="/5F4692FF" Ref="SW?"  Part="1" 
-AR Path="/5F401E16/5F4692FF" Ref="SW?"  Part="1" 
-AR Path="/5F428B3F/5F4692FF" Ref="SW11"  Part="1" 
-F 0 "SW11" H 1900 4785 50  0000 C CNN
-F 1 "NUM." H 1900 4694 50  0000 C CNN
-F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-1U" H 1900 4700 50  0001 C CNN
-F 3 "~" H 1900 4700 50  0001 C CNN
-	1    1900 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D10
 U 1 1 5F469305
-P 1650 4650
-F 0 "D10" V 1696 4580 50  0000 R CNN
-F 1 "D_Small" V 1605 4580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123F" V 1650 4650 50  0001 C CNN
-F 3 "~" V 1650 4650 50  0001 C CNN
-	1    1650 4650
+P 2400 4650
+F 0 "D10" V 2446 4580 50  0000 R CNN
+F 1 "D_Small" V 2355 4580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" V 2400 4650 50  0001 C CNN
+F 3 "~" V 2400 4650 50  0001 C CNN
+	1    2400 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1700 4500 1650 4500
+	2450 4500 2400 4500
 Wire Wire Line
-	1650 4500 1650 4550
-Wire Wire Line
-	1650 4800 1650 4750
-Wire Wire Line
-	2100 4500 2150 4500
+	2400 4500 2400 4550
 Wire Wire Line
 	1400 1200 1400 2000
 Connection ~ 1400 2000
@@ -565,11 +547,8 @@ Wire Wire Line
 Connection ~ 2150 2850
 Wire Wire Line
 	2150 2850 2150 2000
-Connection ~ 2150 3650
 Wire Wire Line
 	2150 3650 2150 2850
-Wire Wire Line
-	2150 4500 2150 3650
 Wire Wire Line
 	2900 1200 2900 2000
 Connection ~ 2900 2000
@@ -578,9 +557,6 @@ Wire Wire Line
 Connection ~ 2900 2850
 Wire Wire Line
 	2900 2850 2900 3650
-Wire Wire Line
-	3650 1200 3650 2000
-Connection ~ 3650 2000
 Wire Wire Line
 	1650 1500 2400 1500
 Connection ~ 2400 1500
@@ -594,8 +570,6 @@ Wire Wire Line
 	1650 2300 2400 2300
 Connection ~ 2400 2300
 Wire Wire Line
-	2400 2300 3150 2300
-Wire Wire Line
 	900  3150 1650 3150
 Connection ~ 1650 3150
 Wire Wire Line
@@ -606,12 +580,6 @@ Connection ~ 1650 3950
 Wire Wire Line
 	1650 3950 2400 3950
 Connection ~ 2400 3950
-Wire Wire Line
-	2400 3950 3150 3950
-Connection ~ 3150 3950
-Wire Wire Line
-	900  4800 1650 4800
-Connection ~ 1650 4800
 Wire Wire Line
 	1400 1200 1400 1100
 Connection ~ 1400 1200
@@ -648,17 +616,8 @@ Wire Wire Line
 	1650 1500 900  1500
 Connection ~ 1650 1500
 Wire Wire Line
-	4000 2300 3150 2300
-Connection ~ 3150 2300
-Wire Wire Line
-	3650 2000 3650 3650
-Wire Wire Line
-	3150 3950 4000 3950
-Wire Wire Line
-	4000 3150 2400 3150
+	4000 3150 3150 3150
 Connection ~ 2400 3150
-Wire Wire Line
-	1650 4800 4000 4800
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5F8C149B
@@ -673,4 +632,45 @@ F 3 "~" H 2650 3050 50  0001 C CNN
 	1    2650 2850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2900 4500 2900 3650
+Wire Wire Line
+	2850 4500 2900 4500
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F4692FF
+P 2650 4500
+AR Path="/5F4692FF" Ref="SW?"  Part="1" 
+AR Path="/5F401E16/5F4692FF" Ref="SW?"  Part="1" 
+AR Path="/5F428B3F/5F4692FF" Ref="SW11"  Part="1" 
+F 0 "SW11" H 2650 4785 50  0000 C CNN
+F 1 "NUM." H 2650 4694 50  0000 C CNN
+F 2 "Button_Switch_Keyboard_MX_Alps_Hybrid:MX-1U" H 2650 4700 50  0001 C CNN
+F 3 "~" H 2650 4700 50  0001 C CNN
+	1    2650 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 3650
+Wire Wire Line
+	2400 4750 2400 4800
+Connection ~ 2400 4800
+Wire Wire Line
+	2400 4800 3150 4800
+Wire Wire Line
+	900  4800 2400 4800
+Connection ~ 3150 3150
+Wire Wire Line
+	3150 3150 2400 3150
+Connection ~ 3650 2850
+Wire Wire Line
+	3650 1200 3650 2850
+Wire Wire Line
+	2400 2300 4000 2300
+Connection ~ 3150 4800
+Wire Wire Line
+	3150 4800 4000 4800
+Wire Wire Line
+	2400 3950 4000 3950
+Wire Wire Line
+	3650 2850 3650 4500
 $EndSCHEMATC

@@ -13,17 +13,6 @@ Comment2 "Schematic Status: Public"
 Comment3 "Author: Julia Schatz"
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 5F30B828
-P 1150 1500
-F 0 "J1" H 800 2250 50  0000 C CNN
-F 1 "HRO_TYPE-C-31-M-12" H 1250 2250 31  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1300 1500 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1500 50  0001 C CNN
-	1    1150 1500
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	9400 4050 9500 3950
 Entry Wire Line
@@ -186,17 +175,6 @@ Connection ~ 2150 1200
 Wire Wire Line
 	2500 1200 2500 1250
 $Comp
-L Copperforge:VUSB #PWR?
-U 1 1 5F8AAB27
-P 2800 850
-F 0 "#PWR?" H 2800 700 50  0001 C CNN
-F 1 "VUSB" H 2815 1023 50  0000 C CNN
-F 2 "" H 2800 850 50  0001 C CNN
-F 3 "" H 2800 850 50  0001 C CNN
-	1    2800 850 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR09
 U 1 1 5F8AB6E3
 P 2500 1250
@@ -302,17 +280,6 @@ Wire Wire Line
 	3900 3500 3900 3550
 Wire Wire Line
 	3900 3750 3900 3950
-$Comp
-L Copperforge:VUSB #PWR?
-U 1 1 5F938B78
-P 2850 3450
-F 0 "#PWR?" H 2850 3300 50  0001 C CNN
-F 1 "VUSB" H 2865 3623 50  0000 C CNN
-F 2 "" H 2850 3450 50  0001 C CNN
-F 3 "" H 2850 3450 50  0001 C CNN
-	1    2850 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR014
 U 1 1 5F93926A
@@ -537,8 +504,6 @@ Text Label 1300 5500 2    50   ~ 0
 ROW4
 Text Label 1300 5700 2    50   ~ 0
 ROW_FN
-NoConn ~ 1750 2000
-NoConn ~ 1750 2100
 Wire Wire Line
 	9950 2050 9850 2050
 Wire Wire Line
@@ -689,17 +654,6 @@ Wire Wire Line
 Connection ~ 9550 1250
 Wire Wire Line
 	9400 1250 9400 1300
-$Comp
-L Copperforge:VUSB #PWR?
-U 1 1 5FC66F04
-P 8950 900
-F 0 "#PWR?" H 8950 750 50  0001 C CNN
-F 1 "VUSB" H 8965 1073 50  0000 C CNN
-F 2 "" H 8950 900 50  0001 C CNN
-F 3 "" H 8950 900 50  0001 C CNN
-	1    8950 900 
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5FC66F0A
@@ -1749,6 +1703,61 @@ Text Label 9350 4350 2    24   ~ 0
 COL3
 Entry Wire Line
 	9400 4350 9500 4250
+$Comp
+L power:VBUS #PWR0101
+U 1 1 5F4989AA
+P 2850 3450
+F 0 "#PWR0101" H 2850 3300 50  0001 C CNN
+F 1 "VBUS" H 2865 3623 50  0000 C CNN
+F 2 "" H 2850 3450 50  0001 C CNN
+F 3 "" H 2850 3450 50  0001 C CNN
+	1    2850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0102
+U 1 1 5F4A5F9A
+P 2800 850
+F 0 "#PWR0102" H 2800 700 50  0001 C CNN
+F 1 "VBUS" H 2815 1023 50  0000 C CNN
+F 2 "" H 2800 850 50  0001 C CNN
+F 3 "" H 2800 850 50  0001 C CNN
+	1    2800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0103
+U 1 1 5F4AF011
+P 8950 900
+F 0 "#PWR0103" H 8950 750 50  0001 C CNN
+F 1 "VBUS" H 8965 1073 50  0000 C CNN
+F 2 "" H 8950 900 50  0001 C CNN
+F 3 "" H 8950 900 50  0001 C CNN
+	1    8950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5F30B828
+P 1150 1500
+F 0 "J1" H 800 2250 50  0000 C CNN
+F 1 "HRO_TYPE-C-31-M-12" H 1250 2250 31  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1300 1500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1500 50  0001 C CNN
+	1    1150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2000 1850 2000
+Wire Wire Line
+	1850 2000 1850 2100
+Wire Wire Line
+	1850 2100 1750 2100
+Wire Wire Line
+	1850 2100 1900 2100
+Connection ~ 1850 2100
+Text Label 1900 2100 0    50   ~ 0
+ROW_FN
 Wire Bus Line
 	9500 3850 9500 5250
 $EndSCHEMATC
