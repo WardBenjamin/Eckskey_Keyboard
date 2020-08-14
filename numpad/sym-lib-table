@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name switches)(type Legacy)(uri "/home/julia/Eckskey_Keyboard/lib/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name eckskey)(type Legacy)(uri /home/julia/Eckskey_Keyboard/lib/eckskey.lib)(options "")(descr ""))
+)

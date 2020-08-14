@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name eckskey)(type Legacy)(uri ${KIPRJMOD}/lib/eckskey.lib)(options "")(descr ""))
   (lib (name doragasu)(type Legacy)(uri C:/Users/blward/Desktop/workspace/Electronics/opensource/doragasu-kicad-lib/doragasu.lib)(options "")(descr ""))
+  (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
 )
